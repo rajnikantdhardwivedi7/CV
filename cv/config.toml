@@ -1,0 +1,12 @@
+baseURL = 'https://cv.rajnikantdhardwivedi.com'
+languageCode = 'en-us'
+title = 'CV | Rajnikant Dhar Dwivedi'
+disableKinds = ["taxonomy", "term"]
+
+defaultContentLanguage = 'en'
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    [languages.en.params]
+      datasource = 'content.en'

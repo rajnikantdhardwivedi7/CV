@@ -1,0 +1,217 @@
+name: Rajnikant Dhar Dwivedi
+tagline: Student, Developer
+
+sidebar:
+  contact:
+    email: rajnikantdhardwivedi@gmail.com
+    location: "Village Ramwapur Dubey, Bansi, Siddharth Nagar, Uttar Pradesh, India"
+    website: github.com/rajnikantdhardwivedi7
+    github: rajnikantdhardwivedi7
+    instagram: rajnikantdhardwivedii
+    gpg: 7C155482814E95C40A2F22D508E0A28613551790
+  skills:
+    - title: Programming Languages
+      entry:
+        - name: Java
+          rating: 5
+        - name: Python
+          rating: 5
+        - name: JavaScript
+          rating: 4
+        - name: Rust
+          rating: 4
+        - name: HTML/CSS
+          rating: 4
+        - name: PHP
+          rating: 3
+        - name: C++
+          rating: 3
+        - name: SQL
+          rating: 4
+    - title: Frameworks & Tools
+      entry:
+        - name: React
+          rating: 4
+        - name: Node.js
+          rating: 4
+        - name: Express
+          rating: 4
+        - name: Bootstrap
+          rating: 3
+        - name: Strapi
+          rating: 3
+        - name: Yew.rs
+          rating: 3
+        - name: Axum.rs
+          rating: 3
+    - title: DevOps & Cloud
+      entry:
+        - name: Docker
+          rating: 4
+        - name: AWS
+          rating: 4
+        - name: Jenkins
+          rating: 3
+        - name: Kubernetes
+          rating: 3
+        - name: Terraform
+          rating: 3
+        - name: Ansible
+          rating: 3
+    - title: Languages
+      entry:
+        - name: Hindi
+          value: Native
+        - name: English
+          value: Fluent
+  opensource:
+    title: "Open Source Contributions:"
+    contributions:
+      - name: Insight For Tomorrow
+        link: https://insight-for-tomorrow.vercel.app/
+        description: "Open-source notes platform (30k+ monthly views)"
+      - name: Hiring Search Tool
+        link: https://hiring-search.careerflow.ai/
+        description: "Job search platform (25k+ users)"
+      - name: Various Projects
+        link: https://github.com/rajnikantdhardwivedi7
+        description: "Freelance solutions and personal projects"
+  misc: []
+
+sections:
+  education:
+    - name: "Bachelor of Computer Applications (BCA)"
+      location: "Chandigarh University, India"
+      date: "2024 - 2027 (Expected)"
+      description: |-
+        - Currently pursuing BCA degree
+        - Focus on Computer Science and Software Development
+    - name: "DevOps for Developers"
+      location: "Stanford Online"
+      date: "2021 - 2022"
+      description: "Completed comprehensive DevOps course covering modern development practices"
+    - name: "JavaScript Algorithms & Data Structures"
+      location: "Stanford Online (2020), MIT OCW (2021)"
+      date: "2020 - 2021"
+      description: "Advanced algorithms and data structures implementation"
+  jobs:
+    - name: |-
+        DevOps Intern  
+        _Deloitte_
+      location: "DLF Cyber City, Gurgaon, India"
+      date: "June 2023 - January 2024"
+      description: |-
+        - Migrated infrastructure to AWS achieving 25% cost savings
+        - Enhanced system uptime and CI/CD pipelines using Kubernetes
+        - Implemented Infrastructure as Code using Terraform and Ansible
+        - Collaborated with cross-functional teams on cloud migration projects
+    - name: |-
+        Full Stack Developer Intern  
+        _Hexaware Technologies_
+      location: "Navi Mumbai, India"
+      date: "February 2022 - July 2022"
+      description: |-
+        - Migrated legacy systems to MERN stack architecture
+        - Improved deployment efficiency by 35% using Docker and Jenkins
+        - Built real-time feedback system with WebSockets
+        - Developed and maintained web applications using modern technologies
+  projects:
+    - name: DevConnect
+      date: "2024"
+      link: https://devconnect-135a.onrender.com/
+      techstack:
+        icon: "fa-brands fa-discord"
+        name: "React; Node.js; WebSocket"
+      description: >-
+        A Discord-like platform designed specifically for developers to collaborate,
+        share code, and build communities. Features real-time messaging, code
+        sharing, and project collaboration tools.
+    - name: RajniGPT
+      date: "2024"
+      link: https://rajnistudyai.onrender.com/
+      techstack:
+        icon: "fa-solid fa-robot"
+        name: "Python; AI/ML; Offline Processing"
+      description: >-
+        An AI-based offline study assistant that helps students with learning
+        and problem-solving. Features include intelligent tutoring, practice
+        questions, and personalized learning paths.
+    - name: StreamNXT
+      date: "2024"
+      link: https://streamnxt-platform.onrender.com/
+      techstack:
+        icon: "fa-solid fa-video"
+        name: "React; Node.js; AI Integration"
+      description: >-
+        A developer-focused video platform with AI-powered code tutorials.
+        Features include interactive coding sessions, AI-generated explanations,
+        and community-driven content creation.
+    - name: Insight for Tomorrow
+      date: "2022 - Present"
+      link: https://insight-for-tomorrow.vercel.app/
+      techstack:
+        icon: "fa-brands fa-react"
+        name: "React; Markdown; Open Source"
+      description: >-
+        An open-source notes platform for computer science students, achieving
+        over 30,000 monthly views. Provides comprehensive study materials
+        and collaborative learning resources.
+    - name: Hiring Search Tool
+      date: "2023"
+      link: https://hiring-search.careerflow.ai/
+      techstack:
+        icon: "fa-solid fa-search"
+        name: "React; Node.js; Database"
+      description: >-
+        A job search platform serving over 25,000 users. Features include
+        advanced filtering, job matching algorithms, and application tracking.
+    - name: Real-Time Chat App
+      date: "2023"
+      link: https://github.com/rajnikantdhardwivedi7
+      techstack:
+        icon: "fa-solid fa-comments"
+        name: "Django; React; AWS"
+      description: >-
+        A real-time chat application built with Django backend, React frontend,
+        and deployed on AWS. Features include instant messaging, file sharing,
+        and user authentication.
+    - name: E-Commerce Platform
+      date: "2023"
+      link: https://github.com/rajnikantdhardwivedi7
+      techstack:
+        icon: "fa-solid fa-shopping-cart"
+        name: "MERN Stack; Docker"
+      description: >-
+        A full-featured e-commerce platform built with MERN stack and Docker.
+        Includes payment processing, inventory management, and admin dashboard.
+    - name: AutoMentorAI
+      date: "2024"
+      link: https://auto-mentor-ai-one.vercel.app/
+      techstack:
+        icon: "fa-solid fa-chart-line"
+        name: "React; AI/ML; Data Visualization"
+      description: >-
+        An AI-powered career mentorship platform offering mock interviews, personalized coaching, and emotion-aware feedback for job seekers.
+  extracurriculars:
+    - name: HackMIT Finalist 2024
+      link: https://hackmit.org
+      icon: "fa-solid fa-trophy"
+    - name: Technical Blogging
+      link: https://rajnikantdhardwivedi-mu.vercel.app/blog
+      icon: "fa-solid fa-blog"
+    - name: Freelance Developer
+      link: https://x.com/DharRajnikant
+      icon: "fa-solid fa-code"
+    - name: Open Source Contributor
+      link: https://github.com/rajnikantdhardwivedi7
+      icon: "fa-solid fa-heart"
+    - name: PUBGTHON 2020 Organizer
+      icon: "fa-solid fa-gamepad"
+    - name: PUBGTHON 2021 Backend Developer
+      icon: "fa-solid fa-server"
+    - name: Android App Developer (SchoolBit)
+      icon: "fa-solid fa-mobile-alt"
+    - name: JARCraftinator Developer
+      icon: "fa-solid fa-cube"
+    - name: Triton Web Interface (TWIN) Developer
+      icon: "fa-solid fa-desktop"
