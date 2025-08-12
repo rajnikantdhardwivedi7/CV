@@ -1,8 +1,7 @@
 # Curriculum Vitae - Rajnikant Dhar Dwivedi
 
-Why HTML? Because it can be easily [shared on the web](https://cv.rajnikantdhardwivedi.com)
+Why HTML? Because it can be easily [shared on the web](https://cv-ten-weld.vercel.app/)
 
-![CV Preview](.github/preview.png)
 
 ## Project Structure
 
