@@ -90,8 +90,8 @@ sections:
       location: "Stanford Online"
       date: "2021 - 2022"
       description: "Completed comprehensive DevOps course covering modern development practices"
-    - name: "JavaScript Algorithms & Data Structures"
-      location: "Stanford Online (2020), MIT OCW (2021)"
+    - name: "JavaScript Algorithms & Data Structures and Algorithm"
+      location: "Stanford Online (2022)"
       date: "2020 - 2021"
       description: "Advanced algorithms and data structures implementation"
   jobs:
