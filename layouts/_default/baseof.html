@@ -1,19 +1,7 @@
 <!DOCTYPE html>
 <html>
-  {{ partial "head.html" . }}
+  {{- partial "head.html" . -}}
   <body>
-    <main class="cv">
-      {{ partial "toolbar.html" . }}
-
-      <div class="cv-body">
-        <aside class="cv-sidebar">
-          {{ partial "sidebar.html" . }}
-        </aside>
-
-        <section class="cv-sections">
-          {{ block "main" . }}{{ end }}
-        </section>
-      </div>
-    </main>
+    {{- block "main" . }}{{- end }}
   </body>
 </html>
