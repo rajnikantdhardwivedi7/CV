@@ -67,7 +67,7 @@ sidebar:
         - name: English
           value: Professional
   opensource:
-    title: Selected work and contributions:
+    title: "Selected work and contributions:"
     contributions:
       - name: Insight for Tomorrow
         link: https://insight-for-tomorrow.vercel.app/
