@@ -88,7 +88,7 @@ sections:
     - name: Mathematics and Modeling for Modern AI
       location: MIT Professional Education
       date: 2026
-      certificate: /certificates/mit-mathematics-modeling-modern-ai.png
+      certificate: /certificates/mit-mathematics-modeling-modern-ai.jpg
       description: |-
         - Professional education program focused on mathematical foundations and modeling for modern AI
     - name: AI, Machine Learning and Deep Mathematics
@@ -256,7 +256,7 @@ sections:
       link: https://rajnikantdhardwivedi.in/blog/2025/08/27/openecsc-round2-writeup-gosweeper/
       icon: "fa-solid fa-shield-halved"
     - name: Harvard Crimson Business Competition - Global Championship Round | STRATUM · Quantitative Research
-      link: /certificates/harvard-crimson-business-competition.png
+      link: /certificates/harvard-crimson-business-competition.jpg
       icon: "fa-solid fa-award"
     - name: Open-source Contributor
       link: https://github.com/rajnikantdhardwivedi7
