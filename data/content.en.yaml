@@ -88,7 +88,7 @@ sections:
     - name: Mathematics and Modeling for Modern AI
       location: MIT Professional Education
       date: 2026
-      certificate: /certificates/mit-mathematics-modeling-modern-ai.jpg
+      certificate: /certificates/mit-mathematics-modeling-modern-ai.png
       description: |-
         - Professional education program focused on mathematical foundations and modeling for modern AI
     - name: AI, Machine Learning and Deep Mathematics
@@ -246,17 +246,17 @@ sections:
         personalized coaching and feedback features.
 
   extracurriculars:
-    - name: Qualcomm ArkLOL Hackathon 2025 - Winner, Team Invincibles
-      link: /certificates/qualcomm-arklol-2025.jpg
+    - name: Qualcomm Edge AI Developer Hackathon 2025 - Winner, Team Invincibles
+      link: https://rajnikantdhardwivedi.in/blog/2025/09/04/winning-the-qualcomm-edge-ai-developer-hackathon-2025/
       icon: "fa-solid fa-trophy"
     - name: Grokathon London 2026 - Top 4
       link: https://github.com/rajnikantdhardwivedi7
       icon: "fa-solid fa-medal"
     - name: OpenECSC - GoSweeper, Top 3
-      link: https://github.com/rajnikantdhardwivedi7
+      link: https://rajnikantdhardwivedi.in/blog/2025/08/27/openecsc-round2-writeup-gosweeper/
       icon: "fa-solid fa-shield-halved"
-    - name: Harvard Crimson Business Competition - Global Championship Round
-      link: /certificates/harvard-crimson-business-competition.jpg
+    - name: Harvard Crimson Business Competition - Global Championship Round | STRATUM · Quantitative Research
+      link: /certificates/harvard-crimson-business-competition.png
       icon: "fa-solid fa-award"
     - name: Open-source Contributor
       link: https://github.com/rajnikantdhardwivedi7
