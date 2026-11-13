@@ -189,18 +189,24 @@ body {
     opacity: 0.8;
   }
 
-  .cv-skills-meter {
-    height: 6px;
-    width: 100%;
-    overflow: hidden;
-    border-radius: 99px;
-    background: var(--sidebarSkillsBgColor);
+  .cv-skills-dots {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    min-height: 10px;
   }
 
-  .cv-skills-meter-fill {
-    display: block;
-    height: 100%;
-    border-radius: inherit;
+  .cv-skills-dot {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--sidebarSkillsBgColor);
+    border: 1px solid var(--accentColor);
+    box-sizing: border-box;
+  }
+
+  .cv-skills-dot.is-filled {
     background: var(--accentColor);
   }
 }
