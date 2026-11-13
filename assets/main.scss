@@ -168,22 +168,46 @@ body {
 }
 
 .cv-skills-entry {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+  display: block;
+  margin: 0.45em 0 0.7em;
+
+  .cv-skills-entry--label {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.5em;
+  }
 
   .cv-skills-entry--name {
-    margin: 0;
-    font-weight: bold;
+    margin: 0 0 0.25em;
+    font-weight: 600;
+    font-size: 0.92em;
   }
 
-  .cv-skills-entry--rating-circle__active {
-    color: var(--accentColor);
+  .cv-skills-entry--value {
+    font-size: 0.82em;
+    opacity: 0.8;
   }
 
-  .cv-skills-entry--rating-circle__inactive {
-    color: var(--sidebarSkillsBgColor);
+  .cv-skills-meter {
+    height: 6px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 99px;
+    background: var(--sidebarSkillsBgColor);
   }
+
+  .cv-skills-meter-fill {
+    display: block;
+    height: 100%;
+    border-radius: inherit;
+    background: var(--accentColor);
+  }
+}
+
+.cv-education-item--certificate {
+  grid-column: 1 / -1;
+  margin-top: 0.35em;
 }
 
 .cv-sections {
