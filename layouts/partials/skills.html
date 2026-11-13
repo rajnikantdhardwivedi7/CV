@@ -5,26 +5,15 @@
       <h3 class="cv-skills-section-title">{{ .title }}</h3>
       {{ range .entry }}
         <div class="cv-skills-entry">
-          <p class="cv-skills-entry--name">{{ .name }}</p>
-          <span class="cv-skills-entry--rating">
-            {{ with .rating }}
-              {{ $rating := . }}
-              {{ range $i := (seq 1 5) }}
-                {{ if (le $i $rating) }}
-                  <i
-                    class="fa-solid fa-circle cv-skills-entry--rating-circle__active"
-                  ></i>
-                {{ else }}
-                  <i
-                    class="fa-solid fa-circle cv-skills-entry--rating-circle__inactive"
-                  ></i>
-                {{ end }}
-              {{ end }}
-            {{ end }}
-            {{ with .value }}
-              {{ . }}
-            {{ end }}
-          </span>
+          <div class="cv-skills-entry--label">
+            <p class="cv-skills-entry--name">{{ .name }}</p>
+            {{ with .value }}<span class="cv-skills-entry--value">{{ . }}</span>{{ end }}
+          </div>
+          {{ with .rating }}
+            <div class="cv-skills-meter" role="img" aria-label="{{ $.title }}: {{ . }} out of 5">
+              <span class="cv-skills-meter-fill" style="width: {{ mul (div (float .) 5.0) 100 }}%"></span>
+            </div>
+          {{ end }}
         </div>
       {{ end }}
     </div>
