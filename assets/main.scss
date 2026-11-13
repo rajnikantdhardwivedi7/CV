@@ -92,6 +92,20 @@ body {
 
     h1 {
       text-transform: uppercase;
+      margin-bottom: 0.2em;
+    }
+
+    .cv-tagline {
+      margin: 0.25em 0;
+      font-size: 1.15em;
+      font-weight: 600;
+    }
+
+    .cv-summary {
+      max-width: 72ch;
+      margin: 0.65em 0 0;
+      font-weight: normal;
+      line-height: 1.55;
     }
   }
 }
