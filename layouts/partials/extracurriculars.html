@@ -6,10 +6,9 @@
   {{ range . }}
     <div class="cv-extracurriculars-item">
       {{ if .link }}
-        <a href="{{ .link | relURL }}" target="_blank" rel="noopener noreferrer">
+        <a href="{{ .link }}" target="_blank" rel="noopener noreferrer">
           <i class="{{ .icon }}"></i>
           <span>{{ .name | markdownify }}</span>
-          <i class="fa-solid fa-arrow-up-right-from-square"></i>
         </a>
       {{ else }}
         <i class="{{ .icon }}"></i>
