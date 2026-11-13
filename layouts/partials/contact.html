@@ -38,6 +38,14 @@
       </a>
     </div>
   {{ end }}
+  {{ with .instagram }}
+    <div class="cv-contact-item">
+      <a href="https://instagram.com/{{ . }}" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-instagram"></i>
+        @{{ . }}
+      </a>
+    </div>
+  {{ end }}
   {{ with .linkedin }}
     <div class="cv-contact-item">
       <a href="https://linkedin.com/in/{{ . }}" target="_blank">
