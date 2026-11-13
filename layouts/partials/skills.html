@@ -4,13 +4,14 @@
     <div class="cv-skills-section">
       <h3 class="cv-skills-section-title">{{ .title }}</h3>
       {{ range .entry }}
+        {{ $skill := . }}
         <div class="cv-skills-entry">
           <div class="cv-skills-entry--label">
-            <p class="cv-skills-entry--name">{{ .name }}</p>
-            {{ with .value }}<span class="cv-skills-entry--value">{{ . }}</span>{{ end }}
+            <p class="cv-skills-entry--name">{{ $skill.name }}</p>
+            {{ with $skill.value }}<span class="cv-skills-entry--value">{{ . }}</span>{{ end }}
           </div>
-          {{ with .rating }}
-            <div class="cv-skills-meter" role="img" aria-label="{{ $.title }}: {{ . }} out of 5">
+          {{ with $skill.rating }}
+            <div class="cv-skills-meter" role="img" aria-label="{{ $skill.name }} proficiency: {{ . }} out of 5">
               <span class="cv-skills-meter-fill" style="width: {{ mul (div (float .) 5.0) 100 }}%"></span>
             </div>
           {{ end }}
