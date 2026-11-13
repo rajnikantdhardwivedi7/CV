@@ -144,7 +144,6 @@ sections:
   projects:
     - name: Wordle AI Benchmark
       date: 2026
-      link: https://github.com/rajnikantdhardwivedi7
       techstack:
         icon: "fa-solid fa-brain"
         name: "Next.js; TypeScript; AI evaluation"
@@ -154,7 +153,6 @@ sections:
         to Grokathon London 2026, where the project placed in the top four.
     - name: AI Incident Triage Assistant
       date: 2025
-      link: https://rajnikantdhardwivedi.in/
       techstack:
         icon: "fa-solid fa-server"
         name: "Python; Streamlit; Docker; GitHub Actions"
@@ -173,7 +171,6 @@ sections:
         for threat analysis, incident triage and operational visibility.
     - name: Rx Technologies Website
       date: 2025
-      link: https://rajnikantdhardwivedi.in/
       techstack:
         icon: "fa-solid fa-code"
         name: "React; TypeScript; Tailwind CSS; Vercel"
