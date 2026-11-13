@@ -17,6 +17,13 @@
       </div>
       <div class="cv-education-item--name">{{ .name | markdownify }}</div>
       <div class="cv-education-item--description">{{ .description | markdownify }}</div>
+      {{ with .certificate }}
+        <div class="cv-education-item--certificate">
+          <a href="{{ . | relURL }}" target="_blank" rel="noopener noreferrer">
+            <i class="fa-solid fa-certificate"></i> View certificate
+          </a>
+        </div>
+      {{ end }}
     </div>
   {{ end }}
 </div>
