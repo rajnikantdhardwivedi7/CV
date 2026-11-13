@@ -4,6 +4,7 @@
     {{ i18n "section-header.education" }}
   </h2>
   {{ range . }}
+    {{ $item := . }}
     <div class="cv-education-item">
       <div class="cv-education-item--info">
         <div>
@@ -17,7 +18,7 @@
       </div>
       <div class="cv-education-item--name">
         {{ with .certificate }}
-          <a href="{{ . | relURL }}" target="_blank" rel="noopener noreferrer">{{ $.name | markdownify }}</a>
+          <a href="{{ . | relURL }}" target="_blank" rel="noopener noreferrer">{{ $item.name | markdownify }}</a>
         {{ else }}
           {{ .name | markdownify }}
         {{ end }}
