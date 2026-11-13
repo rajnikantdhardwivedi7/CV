@@ -160,6 +160,32 @@ sections:
         A machine-learning-powered DevOps tool that classifies system incidents,
         matches errors with historical fixes and presents log analysis and
         system-health insights through a dashboard.
+    - name: STRATUM Quant Research Model
+      date: 2026
+      techstack:
+        icon: "fa-solid fa-chart-line"
+        name: "Machine Learning; Mathematical Modeling; DevOps"
+      description: >-
+        A quantitative research model developed for the Harvard Crimson Business
+        Competition Global Championship Round, combining machine-learning
+        analysis, mathematical risk and portfolio logic, and automated model
+        testing and deployment workflows.
+    - name: AI Mockup Pro
+      date: 2025
+      techstack:
+        icon: "fa-solid fa-wand-magic-sparkles"
+        name: "AI; React; UI Generation"
+      description: >-
+        An AI-assisted design tool that turns wireframes, reference images and
+        design guidelines into polished application-screen concepts.
+    - name: ArkEDU AR STEM
+      date: 2025
+      techstack:
+        icon: "fa-solid fa-cubes"
+        name: "Augmented Reality; STEM Education"
+      description: >-
+        An augmented-reality STEM learning project developed with Team Invincibles
+        for the Qualcomm ArkLOL Hackathon, where the team won.
     - name: SENTINEL AI
       date: 2026
       link: https://sentinal-ai-five.vercel.app/
