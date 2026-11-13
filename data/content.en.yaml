@@ -81,13 +81,14 @@ sections:
   education:
     - name: Bachelor of Computer Applications (BCA)
       location: Chandigarh University, India
-      date: 2024 - 2027 (Expected)
+      date: 2024 - 2028 (Expected)
       description: |-
         - Currently pursuing an online BCA degree
         - Focus on computer science, software development and computing fundamentals
     - name: Mathematics and Modeling for Modern AI
       location: MIT Professional Education
       date: 2026
+      certificate: /certificates/mit-mathematics-modeling-modern-ai.jpg
       description: |-
         - Professional education program focused on mathematical foundations and modeling for modern AI
     - name: AI, Machine Learning and Deep Mathematics
@@ -102,7 +103,8 @@ sections:
         - Applied data science and AI-focused program
     - name: DevOps for Developers
       location: Stanford Online
-      date: 2021 - 2022
+      date: 2022
+      certificate: /certificates/stanford-online-devops-cloud-automation.jpg
       description: |-
         - Coursework in DevOps practices and software delivery
     - name: JavaScript Algorithms and Data Structures
@@ -245,7 +247,7 @@ sections:
 
   extracurriculars:
     - name: Qualcomm ArkLOL Hackathon 2025 - Winner, Team Invincibles
-      link: https://github.com/rajnikantdhardwivedi7
+      link: /certificates/qualcomm-arklol-2025.jpg
       icon: "fa-solid fa-trophy"
     - name: Grokathon London 2026 - Top 4
       link: https://github.com/rajnikantdhardwivedi7
@@ -254,6 +256,7 @@ sections:
       link: https://github.com/rajnikantdhardwivedi7
       icon: "fa-solid fa-shield-halved"
     - name: Harvard Crimson Business Competition - Global Championship Round
+      link: /certificates/harvard-crimson-business-competition.jpg
       icon: "fa-solid fa-award"
     - name: Open-source Contributor
       link: https://github.com/rajnikantdhardwivedi7
