@@ -85,10 +85,9 @@ sections:
       description: |-
         - Currently pursuing an online BCA degree
         - Focus on computer science, software development and computing fundamentals
-    - name: Mathematics and Modeling for Modern AI
+    - name: '[Mathematics and Modeling for Modern AI](/certificates/mit-mathematics-modeling-modern-ai.jpg)'
       location: MIT Professional Education
       date: 2026
-      certificate: /certificates/mit-mathematics-modeling-modern-ai.jpg
       description: |-
         - Professional education program focused on mathematical foundations and modeling for modern AI
     - name: AI, Machine Learning and Deep Mathematics
@@ -101,10 +100,9 @@ sections:
       date: January - April 2024
       description: |-
         - Applied data science and AI-focused program
-    - name: DevOps for Developers
+    - name: '[DevOps and Cloud Automation](/certificates/stanford-online-devops-cloud-automation.jpg)'
       location: Stanford Online
       date: 2022
-      certificate: /certificates/stanford-online-devops-cloud-automation.jpg
       description: |-
         - Coursework in DevOps practices and software delivery
     - name: JavaScript Algorithms and Data Structures
@@ -255,8 +253,7 @@ sections:
     - name: OpenECSC - GoSweeper, Top 3
       link: https://rajnikantdhardwivedi.in/blog/2025/08/27/openecsc-round2-writeup-gosweeper/
       icon: "fa-solid fa-shield-halved"
-    - name: Harvard Crimson Business Competition - Global Championship Round | STRATUM · Quantitative Research
-      link: /certificates/harvard-crimson-business-competition.jpg
+    - name: '[Harvard Crimson Business Competition](/certificates/harvard-crimson-business-competition.jpg) - Global Championship Round · STRATUM, Quantitative Research
       icon: "fa-solid fa-award"
     - name: Open-source Contributor
       link: https://github.com/rajnikantdhardwivedi7
