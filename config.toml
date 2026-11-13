@@ -1,4 +1,4 @@
-baseURL = 'https://cv.rajnikantdhardwivedi.com'
+baseURL = 'https://cv-ten-weld.vercel.app/'
 languageCode = 'en-us'
 title = 'CV | Rajnikant Dhar Dwivedi'
 disableKinds = ["taxonomy", "term"]
