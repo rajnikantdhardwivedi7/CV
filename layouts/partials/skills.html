@@ -11,8 +11,10 @@
             {{ with $skill.value }}<span class="cv-skills-entry--value">{{ . }}</span>{{ end }}
           </div>
           {{ with $skill.rating }}
-            <div class="cv-skills-meter" role="img" aria-label="{{ $skill.name }} proficiency: {{ . }} out of 5">
-              <span class="cv-skills-meter-fill" style="width: {{ mul (div (float .) 5.0) 100 }}%"></span>
+            <div class="cv-skills-dots" role="img" aria-label="{{ $skill.name }} proficiency: {{ . }} out of 5">
+              {{ range seq 5 }}
+                <span class="cv-skills-dot{{ if le . $skill.rating }} is-filled{{ end }}"></span>
+              {{ end }}
             </div>
           {{ end }}
         </div>
