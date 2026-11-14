@@ -10,20 +10,10 @@
             {{ with .rating }}
               {{ $rating := . }}
               {{ range $i := (seq 1 5) }}
-                {{ if (le $i $rating) }}
-                  <i
-                    class="fa-solid fa-circle cv-skills-entry--rating-circle__active"
-                  ></i>
-                {{ else }}
-                  <i
-                    class="fa-solid fa-circle cv-skills-entry--rating-circle__inactive"
-                  ></i>
-                {{ end }}
+                <span class="cv-skills-entry--rating-circle {{ if (le $i $rating) }}cv-skills-entry--rating-circle__active{{ else }}cv-skills-entry--rating-circle__inactive{{ end }}"></span>
               {{ end }}
             {{ end }}
-            {{ with .value }}
-              {{ . }}
-            {{ end }}
+            {{ with .value }}{{ . }}{{ end }}
           </span>
         </div>
       {{ end }}
