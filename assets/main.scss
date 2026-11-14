@@ -163,12 +163,27 @@ body {
     font-weight: bold;
   }
 
+  .cv-skills-entry--rating {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    white-space: nowrap;
+  }
+
+  .cv-skills-entry--rating-circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    flex: 0 0 10px;
+    border-radius: 50%;
+  }
+
   .cv-skills-entry--rating-circle__active {
-    color: var(--accentColor);
+    background-color: var(--accentColor);
   }
 
   .cv-skills-entry--rating-circle__inactive {
-    color: var(--sidebarSkillsBgColor);
+    background-color: var(--sidebarSkillsBgColor);
   }
 }
 
