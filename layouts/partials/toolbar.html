@@ -1,61 +1,37 @@
 <script>
-  function setTheme(theme) {
-    const root = document.documentElement;
-    root.classList.toggle("dark", theme === "dark");
-    const button = document.querySelector(".theme-toggle");
-    if (button) {
-      button.setAttribute("aria-pressed", String(theme === "dark"));
-      button.setAttribute(
-        "aria-label",
-        theme === "dark" ? "Switch to light theme" : "Switch to dark theme"
-      );
-    }
-  }
-
   function toggleDarkMode() {
-    const isDark = document.documentElement.classList.contains("dark");
-    setTheme(isDark ? "light" : "dark");
+    const classes = document.querySelector("html").classList;
+    if (classes.contains("dark")) {
+      classes.remove("dark");
+    } else {
+      classes.add("dark");
+    }
   }
 
-  const savedTheme = localStorage.getItem("cv-theme");
-  const preferredDark = window.matchMedia &&
-    window.matchMedia("(prefers-color-scheme: dark)").matches;
-  setTheme(savedTheme || (preferredDark ? "dark" : "light"));
-
-  window.addEventListener("DOMContentLoaded", () => {
-    const themeButton = document.querySelector(".theme-toggle");
-    if (themeButton) {
-      themeButton.addEventListener("click", () => {
-        toggleDarkMode();
-        localStorage.setItem(
-          "cv-theme",
-          document.documentElement.classList.contains("dark") ? "dark" : "light"
-        );
-      });
-    }
-  });
+  if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    toggleDarkMode();
+  }
 </script>
-<div class="toolbar" role="toolbar" aria-label="CV actions">
-  <button class="theme-toggle" type="button" aria-pressed="false">
-    <span class="hide-dark" aria-hidden="true">
+<div class="toolbar">
+  <button class="theme-toggle" onclick="toggleDarkMode()">
+    <span class="hide-dark">
       <i class="fa-solid fa-sun"></i>
     </span>
-    <span class="hide-light" aria-hidden="true">
+    <span class="hide-light">
       <i class="fa-solid fa-moon"></i>
     </span>
-    <span>Toggle theme</span>
+    Toggle theme
   </button>
-  <div class="toolbar-spacer"></div>
+  <div style="flex-grow: 1;"></div>
   <a
     href="https://github.com/rajnikantdhardwivedi7/CV"
     target="_blank"
     rel="noopener noreferrer"
   >
-    <i class="fa-brands fa-github" aria-hidden="true"></i>
+    <i class="fa-brands fa-github"></i>
     Source code
   </a>
-  <button class="print-button" type="button" onclick="window.print()" aria-label="Print or save CV as PDF">
-    <i class="fa-solid fa-print" aria-hidden="true"></i>
-    <span>Print / Save PDF</span>
+  <button class="print-button" onclick="window.print()">
+    <i class="fa-solid fa-print"></i>
   </button>
 </div>
