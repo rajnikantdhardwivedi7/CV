@@ -1,9 +1,6 @@
-<header class="cv-header">
+<header>
   <h1>{{ .name }}</h1>
   {{ with .tagline }}
-    <p class="cv-tagline">{{ . }}</p>
-  {{ end }}
-  {{ with .summary }}
-    <p class="cv-summary">{{ . }}</p>
+    <p>{{ . }}</p>
   {{ end }}
 </header>
