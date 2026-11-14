@@ -5,20 +5,20 @@
       <h3 class="cv-skills-section-title">{{ .title }}</h3>
       {{ range .entry }}
         <div class="cv-skills-entry">
-          <p class="cv-skills-entry--name">{{ .name }}</p>
-          <span class="cv-skills-entry--rating">
-            {{ with .rating }}
-              {{ $rating := . }}
-              {{ range $i := (seq 1 5) }}
-                {{ if (le $i $rating) }}
-                  <i class="fa-solid fa-circle cv-skills-entry--rating-circle__active"></i>
-                {{ else }}
-                  <i class="fa-solid fa-circle cv-skills-entry--rating-circle__inactive"></i>
-                {{ end }}
-              {{ end }}
+          <div class="cv-skills-entry--label">
+            <p class="cv-skills-entry--name">{{ .name }}</p>
+            {{ with .value }}
+              <span class="cv-skills-entry--value">{{ . }}</span>
             {{ end }}
-            {{ with .value }}{{ . }}{{ end }}
-          </span>
+          </div>
+          {{ with .rating }}
+            {{ $rating := . }}
+            <div class="cv-skills-dots" role="img" aria-label="Skill rating {{ $rating }} out of 5">
+              {{ range $i := (seq 1 5) }}
+                <span class="cv-skills-dot{{ if (le $i $rating) }} is-filled{{ end }}"></span>
+              {{ end }}
+            </div>
+          {{ end }}
         </div>
       {{ end }}
     </div>
