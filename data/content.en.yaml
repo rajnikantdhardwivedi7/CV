@@ -245,6 +245,7 @@ sections:
 
   extracurriculars:
     - name: Qualcomm Edge AI Developer Hackathon 2025 - Winner, Team Invincibles
+      certificate: /certificates/qualcomm-edge-ai-hackathon-2025.jpg
       link: https://rajnikantdhardwivedi.in/blog/2025/09/04/winning-the-qualcomm-edge-ai-developer-hackathon-2025/
       icon: "fa-solid fa-trophy"
     - name: Grokathon London 2026 - Top 4
@@ -253,7 +254,8 @@ sections:
     - name: OpenECSC - GoSweeper, Top 3
       link: https://rajnikantdhardwivedi.in/blog/2025/08/27/openecsc-round2-writeup-gosweeper/
       icon: "fa-solid fa-shield-halved"
-    - name: '[Harvard Crimson Business Competition](/certificates/harvard-crimson-business-competition.jpg) - Global Championship Round · STRATUM, Quantitative Research
+    - name: Harvard Crimson Business Competition - Global Championship Round · STRATUM, Quantitative Research
+      certificate: /certificates/harvard-crimson-business-competition.jpg
       icon: "fa-solid fa-award"
     - name: Open-source Contributor
       link: https://github.com/rajnikantdhardwivedi7
