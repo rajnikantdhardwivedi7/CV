@@ -2,14 +2,22 @@
   <h2><i class="fa-solid fa-shapes"></i> {{ i18n "section-header.extra-curriculars" }}</h2>
   {{ range . }}
     <div class="cv-extracurriculars-item">
-      {{ if .link }}
+      <i class="{{ .icon }}"></i>
+      {{ if .certificate }}
+        <a href="{{ .certificate }}" target="_blank" rel="noopener noreferrer">
+          <span>{{ .name | markdownify }}</span>
+        </a>
+        {{ with .link }}
+          <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="cv-extracurriculars-writeup">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i> Write-up
+          </a>
+        {{ end }}
+      {{ else if .link }}
         <a href="{{ .link }}" target="_blank" rel="noopener noreferrer">
-          <i class="{{ .icon }}"></i>
           <span>{{ .name | markdownify }}</span>
           <i class="fa-solid fa-link"></i>
         </a>
       {{ else }}
-        <i class="{{ .icon }}"></i>
         <span>{{ .name | markdownify }}</span>
       {{ end }}
     </div>
